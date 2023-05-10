@@ -25,4 +25,14 @@ void main() {
     }
   }
   print(d);
+  //task 3
+  String g = 'a';
+  String h = 'dart';
+  int counter = 0;
+  for (int i = 0; i < h.length; i++) {
+    if (h[i] == g) {
+      counter++;
+    }
+  }
+  print(counter);
 }
